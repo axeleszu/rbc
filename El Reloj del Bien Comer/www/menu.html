@@ -1,0 +1,174 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device_display, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <!-- Overlay for fixed sidebar -->
+    <div class="sidebar-overlay"></div>
+    <!-- Material sidebar -->
+    <aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+        <!-- Sidebar header -->
+        <div class="sidebar-header header-cover" style="background-image: url(img/cover.jpg);">
+            <!-- Top bar -->
+            <div class="top-bar">
+                <!-- Sidebar toggle button -->
+                <button type="button" class="sidebar-toggle cover-toggle" style="float:left;margin:5px 15px;">
+                    <i class="sidebar-icon md-menu" style="font-size:30px;margin-right:0px;"></i>
+                </button>
+            </div>
+            <!-- Sidebar brand image -->
+            <div class="sidebar-image">
+                <img src="img/profile.jpg">
+            </div>
+            <!-- Sidebar brand name -->
+            <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+                El Reloj del Bien Comer
+                <b class="caret"></b>
+            </a>
+        </div>
+        <!-- Sidebar navigation -->
+        <ul class="nav sidebar-nav">
+            <li class="dropdown">
+                <ul id="settings-dropdown" class="dropdown-menu">
+                    <li>
+                        <a href="#" onclick="carga_pagina ('acercade.html');">
+                            <img src="img/acercade.svg" width="12px" height="12px" /> Acerca de</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="menu.html">
+                    <img src="img/home.svg" width="12px" height="12px" /> Inicio
+                </a>
+            </li>
+            <li class="dropdown">
+                <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
+                    <img src="img/manzana.svg" width="12px" height="12px" /> Mi Plan
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#" onclick="carga_pagina ('miplan.html');">
+                            <img src="img/miplan.svg" width="12px" height="12px" /> Ver Mi Plan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="carga_pagina ('personaliza.html');">
+                            <img src="img/personaliza.svg" width="12px" height="12px" /> Personalizar mi plan
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" onclick="carga_pagina ('lista.html');">
+                    <img src="img/lista.svg" width="12px" height="12px" /> Ver lista de compras
+                </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#" onclick="carga_pagina ('especialistas.html');">
+                    <img src="img/especialistas.svg" width="12px" height="12px" /> Especialistas
+                </a>
+            </li>
+        </ul>
+        <!-- Sidebar text -->
+    </aside>
+    <div class="wrapper">
+        <div class="header">
+            <div class="sidebar-toggle" style="float:left;">
+                <i class="sidebar-icon md-menu" style="font-size:30px"></i>
+            </div>
+            <h2 style="float:right; padding:10px;font-weight: 900;">El Reloj del Bien Comer</h2>
+        </div>
+        <div id="contenido" class="body-app">
+            <div style="width:85%;margin:0 auto;text-align:center;">
+                <div class="icono-app">
+                    <a href="#" onclick="carga_pagina ('miplan.html');">
+                        <img src="img/miplan.svg" width="64px" height="64px" />
+                        <p>Mi plan</p>
+                    </a>
+                </div>
+                <div class="icono-app">
+                    <a href="#" onclick="carga_pagina ('personaliza.html');">
+                        <img src="img/personaliza.svg" width="64px" height="64px" />
+                        <p>Personalizar mi plan</p>
+                    </a>
+                </div>
+                <div class="icono-app">
+                    <a href="#" onclick="carga_pagina ('lista.html');">
+                        <img src="img/lista.svg" width="64px" height="64px" />
+                        <p>Ver lista de compras</p>
+                    </a>
+                </div>
+                <div class="icono-app">
+                    <a href="#" onclick="carga_pagina ('especialistas.html');">
+                        <img src="img/especialistas.svg" width="64px" height="64px" />
+                        <p>Directorio de especialistas</p>
+                    </a>
+                </div>
+                <div class="icono-app"></div>
+                <p>&nbsp;</p>
+                <!-- <div class="sidebar-toggle" style="background-color:#003170;color:#FFF; float:right;margin-right:30px;cursor:hand; padding:5px;font-size:20px;">
+                Menu
+            </div>-->
+            </div>
+        </div>
+    </div>
+    <script src='js/stopExecutionOnTimeout.js?t=1'></script>
+    <script src='js/jquery.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <!-- Script para cargar páginas -->
+    <script>
+    var carga_pagina = function(url_pag) {
+        var overlay = $('.sidebar-overlay');
+        var sidebar = $('#sidebar');
+        if (sidebar.hasClass('open')) {
+            overlay.removeClass('active');
+            sidebar.toggleClass('open');
+        };
+        $('#contenido').load(url_pag, function() {});
+    };
+    </script>
+    <!-- Script para animar menu lateral -->
+    <script>
+    $(document).ready(function() {
+
+        var overlay = $('.sidebar-overlay');
+        $('.sidebar-toggle').on('click', function() {
+            var sidebar = $('#sidebar');
+            sidebar.toggleClass('open');
+            if (sidebar.hasClass('open')) {
+                overlay.addClass('active');
+            } else {
+                overlay.removeClass('active');
+            }
+        });
+        overlay.on('click', function() {
+            $(this).removeClass('active');
+            $('#sidebar').removeClass('open');
+        });
+    });
+    $(document).ready(function() {
+        var sidebar = $('#sidebar');
+    });
+    //Script para animar dropdowns de menu 
+    (function($) {
+        var dropdown = $('.dropdown');
+        dropdown.on('show.bs.dropdown', function(e) {
+            $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+        });
+        dropdown.on('hide.bs.dropdown', function(e) {
+            $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+        });
+    }(jQuery));
+
+    //# sourceURL=pen.js
+    </script>
+    <!-- Script para detectar swipes -->
+</body>
+
+</html>

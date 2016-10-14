@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan>
+    <desayuno>
+        <alimento> 1 taza de jugo de naranja con zanahoria </alimento>
+        <alimento> 1 Litro agua con una cda clorofila y limón. </alimento>
+        <alimento> ACTIVIDAD FÍSICA 30 minutos </alimento>
+    </desayuno>
+    <almuerzo>
+        <alimento> (Mollete sencillo) </alimento>
+        <alimento> ½ pieza de bolillo </alimento>
+        <alimento> ½ taza de frijol cocido </alimento>
+        <alimento> 2 pulgares de queso Oaxaca </alimento>
+        <alimento> ½ taza jitomate, limón y cebolla </alimento>
+        <alimento> 1 taza agua de Jamaica </alimento>
+        <alimento> sin azúcar </alimento>
+    </almuerzo>
+    <comida>
+        <alimento> (Ensalada de atún) </alimento>
+        <alimento> 1 taza de fideo </alimento>
+        <alimento> 1 lata de atún en agua, jitomate, cebolla, cilantro, </alimento>
+        <alimento> 1/3 de betabel rallado </alimento>
+        <alimento> 2 cda de mayonesa </alimento>
+        <alimento> 3 tostadas. </alimento>
+        <alimento> 1 mandarina </alimento>
+        <alimento> 1 taza agua de fresa poca azúcar. </alimento>
+    </comida>
+    <refrigerio>
+        <alimento> 1 taza de coliflor cocido </alimento>
+    </refrigerio>
+    <cena>
+        <alimento> (Coctel de frutas) </alimento>
+        <alimento> 1 Yogurt natural </alimento>
+        <alimento> 3 cdas. de granola y miel </alimento>
+        <alimento> 1 taza de frutas picada </alimento>
+        <alimento> 13 cacahuates tostados </alimento>
+    </cena>
+</plan>

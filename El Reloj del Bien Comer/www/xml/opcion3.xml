@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan>
+    <desayuno>
+        <alimento> 1 taza de papaya picada con amaranto </alimento>
+        <alimento> 1 Litro agua con una cda clorofila y limón. </alimento>
+        <alimento> DESCANSO </alimento>
+    </desayuno>
+    <almuerzo>
+        <alimento> (Tostadas de frijoles) </alimento>
+        <alimento> 2 tostadas </alimento>
+        <alimento> ½ taza de frijoles fritos </alimento>
+        <alimento> 1 yogurt bebible </alimento>
+        <alimento> 1 taza de fresas picadas con miel </alimento>
+        <alimento> 1 taza agua de cola de caballo sin azúcar </alimento>
+    </almuerzo>
+    <comida>
+        <alimento> (Bistec guisado) </alimento>
+        <alimento> ½ taza de frijol </alimento>
+        <alimento> 3 tortillas de maíz </alimento>
+        <alimento> 3 pugares de queso panela </alimento>
+        <alimento> 1 taza jitomate con cebolla y zanahoria guisados con 120 g de bistec, sal de ajo </alimento>
+        <alimento> 1 cdta de aceite canola </alimento>
+        <alimento> 1 agua fresca de Jamaica sin azúcar </alimento>
+        <alimento> 1 mango chico </alimento>
+    </comida>
+    <refrigerio>
+        <alimento> 1 tazas de zanahoria, brócoli y chícharo al vapor </alimento>
+    </refrigerio>
+    <cena>
+        <alimento> (Lentejas a la mexicana) </alimento>
+        <alimento> proteina </alimento>
+        <alimento> 1 jitomate picado y cebolla </alimento>
+        <alimento> 1 taza de Lentejas cocidos </alimento>
+        <alimento> 40 gr de queso fresco </alimento>
+        <alimento> 3 tortilla de maíz </alimento>
+        <alimento> 1 gelatina light </alimento>
+        <alimento> 1 taza de agua </alimento>
+    </cena>
+</plan>

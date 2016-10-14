@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan>
+    <desayuno>
+        <alimento> 1 taza de fresas con granola miel y amaranto </alimento>
+        <alimento> 1 Litro agua con una cda clorofila y limón. </alimento>
+        <alimento> ACTIVIDAD FÍSICA 30 minutos </alimento>
+    </desayuno>
+    <almuerzo>
+        <alimento> (Sándwich de Pollo) </alimento>
+        <alimento> 1 taza leche descremada. </alimento>
+        <alimento> 1 Reb. de pan integral </alimento>
+        <alimento> ¼ taza de pollo deshebrado </alimento>
+        <alimento> ½ taza (lechuga, cebolla y jitomate). </alimento>
+        <alimento> 1 cda. de mayonesa </alimento>
+        <alimento> 1 taza agua de Jamaica sin azúcar </alimento>
+    </almuerzo>
+    <comida>
+        <alimento> (Ensalada de pollo) </alimento>
+        <alimento> 1 taza de lentejas al mex </alimento>
+        <alimento> 3 tortillas </alimento>
+        <alimento> 180 gr de pechuga de pollo deshebrada </alimento>
+        <alimento> 1 jitomate y cebolla al gusto </alimento>
+        <alimento> 1 taza de lechuga </alimento>
+        <alimento> 2 cdas de mayonesa </alimento>
+        <alimento> 1 taza agua de Jamaica sin azúcar </alimento>
+    </comida>
+    <refrigerio>
+        <alimento> 2 taza zanahoria rallada con limón. </alimento>
+    </refrigerio>
+    <cena>
+        <alimento> (Quesadilla con nopal) </alimento>
+        <alimento> 3 tortilla de maíz </alimento>
+        <alimento> 3 pulgares de queso Oaxaca </alimento>
+        <alimento> 1 nopal asado </alimento>
+        <alimento> ½ taza de frejoles fritos </alimento>
+        <alimento> Jitomate y Cebolla </alimento>
+        <alimento> 1 té sin azúcar. </alimento>
+    </cena>
+</plan>

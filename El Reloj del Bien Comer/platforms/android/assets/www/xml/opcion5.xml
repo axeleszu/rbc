@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan>
+    <desayuno>
+        <alimento> 1 taza de fruta con granola, amaranto y miel </alimento>
+        <alimento> 1 t Litro agua con una cda clorofila y limón. </alimento>
+        <alimento> ACTIVIDAD FÍSICA 30 minutos </alimento>
+    </desayuno>
+    <almuerzo>
+        <alimento> (Torta de jamón) </alimento>
+        <alimento> 1 bolillo sin migajón </alimento>
+        <alimento> ¼ taza de bistec de res asado </alimento>
+        <alimento> ½ taza (lechuga, cebolla y jitomate). </alimento>
+        <alimento> 1 cda de mayonesa </alimento>
+        <alimento> 1 taza agua de cola de caballo sin azúcar </alimento>
+    </almuerzo>
+    <comida>
+        <alimento> (Caldo de res o pescado) </alimento>
+        <alimento> 120 gr de carne magra </alimento>
+        <alimento> 3 tortillas de maíz </alimento>
+        <alimento> 1 coliflor cocido </alimento>
+        <alimento> 1 taza de calabacitas </alimento>
+        <alimento> 1/3 de aguacate </alimento>
+        <alimento> ½ taza de habas o frijoles </alimento>
+        <alimento> 1 taza de agua de pera o mango sin azúcar </alimento>
+    </comida>
+    <refrigerio>
+        <alimento> 1 ½ taza de pepinos picados con casc sin sal. </alimento>
+    </refrigerio>
+    <cena>
+        <alimento> (Malteada de fresa) </alimento>
+        <alimento> 1 taza de leche semidescremada </alimento>
+        <alimento> ½ taza de fresas rebanadas </alimento>
+        <alimento> 1 cda de germen de trigo </alimento>
+        <alimento> 1 cda. de miel </alimento>
+        <alimento> 10 galletas marías </alimento>
+    </cena>
+</plan>

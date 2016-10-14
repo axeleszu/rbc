@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan>
+<desayuno>
+	<alimento>2 tortilla de maíz</alimento>
+	<alimento>2 pulgar de queso</alimento>
+	<alimento>2 pulgares frijoles fritos</alimento>
+	<alimento>1 plátano</alimento>
+	<alimento>1 jitomate picado con limón</alimento>
+	<alimento>ACTIVIDAD FÍSICA (30mint)</alimento>
+</desayuno>
+<almuerzo>
+	<alimento>1 pza manzana picada </alimento>
+	<alimento>½ taza de yogurth natural</alimento>
+	<alimento>3 cucharadas de granola o amaranto.</alimento>
+	<alimento>1 taza agua con una cda clorofila y limón.</alimento>
+</almuerzo>
+<comida>
+	<alimento>1 taza de (lechuga, pepino y cebolla)</alimento>
+	<alimento>½ taza de zanahoria  </alimento>
+	<alimento>1 cdita de aceite de olivo</alimento>
+	<alimento>3 tortillas de maíz</alimento>
+	<alimento>180 g de  a la plancha (limón,  pescado sal c/ajo, pimienta).</alimento>
+	<alimento>½ taza de frejoles </alimento>
+	<alimento>1 taza agua de guayaba sin azúcar.</alimento>
+</comida>
+<refrigerio>
+	<alimento>2 tazas de jícama con limón y poca sal.</alimento>
+</refrigerio>
+<cena>
+	<alimento>1 Reb. ó pza. De pan integral</alimento>
+	<alimento>1 cda de mermelada</alimento>
+	<alimento>10 almendras</alimento>
+	<alimento>1 Naranja</alimento>
+</cena>
+</plan>

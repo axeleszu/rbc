@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <style type="text/css">
+    select {
+        width: 100%;
+        font-size: 1.5em;
+        background-color: lightgray
+    }
+    </style>
+    <script type="text/javascript" src="js/miplan.js"></script>
+</head>
+
+<body>
+    <h1>Escoge tu plan de acuerdo a tus gustos</h1>
+    <select onchange="MiPlan();" id="miOpcion">
+        <option value="1">Plan 1</option>
+        <option value="2">Plan 2</option>
+        <option value="3">Plan 3</option>
+        <option value="4">Plan 4</option>
+        <option value="5">Plan 5</option>
+    </select>
+    <p id="descPlan"></p>
+    <div class="icono-app">
+        <a href="#" onclick="carga_pagina ('miplan.html');">
+            <img src="img/miplan.svg" width="64px" height="64px" />
+            <p>Mi plan</p>
+        </a>
+    </div>
+</body>
+
+</html>
